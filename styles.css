@@ -208,10 +208,10 @@ button { font: inherit; border: 0; background: none; cursor: pointer; }
 }
 svg#lotSvg { width: 100%; height: auto; display: block; max-height: 720px; }
 
-.aisle { fill: rgba(231,234,240,0.6); stroke: var(--line); stroke-width: 1; }
-.aisle-center { stroke: rgba(102,112,133,0.3); stroke-width: 1.5; stroke-dasharray: 4 6; }
-.lane { fill: rgba(243,245,248,0.7); stroke: var(--line); stroke-width: 1; }
-.lane-center { stroke: rgba(102,112,133,0.25); stroke-width: 1.2; stroke-dasharray: 4 6; }
+.aisle { fill: rgba(0,0,0,0.6); stroke: var(--line); stroke-width: 1; }
+.aisle-center { stroke: rgba(255,255,255,0.3); stroke-width: 1.5; stroke-dasharray: 4 6; }
+.lane { fill: rgba(0,0,0,0.7); stroke: var(--line); stroke-width: 1; }
+.lane-center { stroke: rgba(255,255,255,0.25); stroke-width: 1.2; stroke-dasharray: 4 6; }
 .entrance-marker { fill: var(--blue); }
 .entry-label { font-size: 9px; letter-spacing: 0.08em; fill: var(--blue); font-weight: 700; }
 
